@@ -1,5 +1,5 @@
 
-###### Add a Admin User in WordPress from the active theme
+## Add a Admin User in WordPress from the active theme
 ```php
 function wpb_admin_account(){
 $user = 'Username';
@@ -13,4 +13,4 @@ $user->set_role( 'administrator' );
 add_action('init','wpb_admin_account');
 ```
 
-###### Add a Admin User in WordPress from the active theme
+## Add a Admin User in WordPress from the active theme
